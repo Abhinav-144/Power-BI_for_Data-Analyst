@@ -1,0 +1,33 @@
+-- Starter measure documentation.
+-- Confirm the exact column names in your model before using these formulas.
+
+Total Employees =
+DISTINCTCOUNT(Employee[Employee ID])
+
+Exited Employees =
+CALCULATE(
+    [Total Employees],
+    Employee[Attrition] = "Yes"
+)
+
+Active Employees =
+CALCULATE(
+    [Total Employees],
+    Employee[Attrition] = "No"
+)
+
+Attrition Rate =
+DIVIDE(
+    [Exited Employees],
+    [Total Employees],
+    0
+)
+
+Average Age =
+AVERAGE(Employee[Age])
+
+Average Monthly Income =
+AVERAGE(Employee[Monthly Income])
+
+Average Tenure =
+AVERAGE(Employee[Years at Company])

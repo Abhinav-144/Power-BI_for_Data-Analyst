@@ -1,0 +1,31 @@
+PROJECT: Supply Chain & Logistics Intelligence
+PLATFORM: Microsoft Power BI
+
+DATASET
+Name: DataCo Smart Supply Chain dataset
+Source platform: Kaggle
+Exact dataset page URL: Not captured in the project notes — add the URL of the exact dataset download used.
+
+SOURCE FILES DISCUSSED
+1. DataCoSupplyChainDataset.csv
+2. DescriptionDataCo.csv or DescriptionDataCoSupplyChain.csv
+   (The exact description-file name can vary by downloaded package. Keep the actual filename used in the PBIX.)
+
+SOURCE FORMAT
+CSV (comma-separated values)
+
+SOURCE CONTENT DISCUSSED
+The dataset includes order and order-item identifiers, order/shipping dates, actual and scheduled shipping durations, delivery status / late-delivery-risk information, shipping mode, geography fields such as market and order region, product category, customer information, and sales-related fields.
+
+POWER BI IMPORT
+The CSV data was brought into Power BI through Power Query. The raw source query was intended to be preserved as Raw_DataCo, with a transformed fact query named Fact Order Items and separate dimension queries.
+
+DATASET ATTRIBUTION
+Before publishing, add:
+- Exact Kaggle dataset page URL
+- Dataset author/uploader, if stated on the source page
+- Download date or dataset version, if known
+- Any license or attribution requirements shown on the dataset page
+
+IMPORTANT
+Do not assume the displayed ₹ currency symbol proves the source data is denominated in INR. Confirm the dataset's currency definition and the report's formatting before publishing financial interpretations.

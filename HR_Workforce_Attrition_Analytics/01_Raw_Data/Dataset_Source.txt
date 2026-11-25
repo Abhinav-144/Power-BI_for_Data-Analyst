@@ -1,0 +1,31 @@
+DATASET SOURCE
+===============
+
+Project: HR Workforce & Attrition Analytics
+
+Dataset used:
+IBM HR Analytics Employee Attrition & Performance-style dataset
+Common filename: WA_Fn-UseC_-HR-Employee-Attrition.csv
+
+Source reference:
+Kaggle dataset commonly titled “IBM HR Analytics Employee Attrition & Performance”.
+Dataset page: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
+
+Important attribution and usage notes:
+- Verify the exact source page and its current license/terms before redistributing the CSV.
+- This dataset is commonly used as a fictional/synthetic HR analytics dataset for learning and portfolio demonstrations.
+- Do not describe the rows as actual IBM employee records or claim that the analysis represents IBM's real workforce.
+- If you obtained the CSV from another source, replace the link above with the exact source you used.
+- If redistribution is not permitted, do not commit the CSV to GitHub. Provide the source link instead.
+
+Dataset facts used in this project:
+- Expected row count in the commonly distributed version: 1,470 employees.
+- Common fields include EmployeeNumber, Age, Gender, Department, JobRole, MonthlyIncome,
+  YearsAtCompany, OverTime, JobSatisfaction, EnvironmentSatisfaction, WorkLifeBalance,
+  PerformanceRating, and Attrition.
+- The standard version does not contain a genuine Hire Date field. Do not fabricate one.
+
+Before publication:
+1. Confirm that the dataset used locally matches the source cited above.
+2. Review the dataset license and redistribution rules.
+3. Confirm the report's totals and measure definitions against the loaded data.

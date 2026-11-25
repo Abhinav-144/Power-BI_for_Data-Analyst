@@ -1,0 +1,16 @@
+-- Confirm exact column names in the final model.
+
+Average Job Satisfaction =
+AVERAGE(Employee[Job Satisfaction])
+
+Average Environment Satisfaction =
+AVERAGE(Employee[Environment Satisfaction])
+
+Average Work-Life Balance =
+AVERAGE(Employee[Work-Life Balance])
+
+Average Performance Rating =
+AVERAGE(Employee[Performance Rating])
+
+Average Relationship Satisfaction =
+AVERAGE(Employee[Relationship Satisfaction])

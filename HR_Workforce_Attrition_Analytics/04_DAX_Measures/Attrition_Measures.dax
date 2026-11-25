@@ -1,0 +1,7 @@
+-- Confirm exact column names in the final model.
+
+Average Tenure of Exited Employees =
+CALCULATE(
+    AVERAGE(Employee[Years at Company]),
+    Employee[Attrition] = "Yes"
+)
